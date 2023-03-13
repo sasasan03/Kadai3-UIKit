@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6944AC3B29BF218400290388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6944AC3A29BF218400290388 /* AppDelegate.swift */; };
+		6944AC3D29BF218400290388 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6944AC3C29BF218400290388 /* SceneDelegate.swift */; };
+		6944AC3F29BF218400290388 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6944AC3E29BF218400290388 /* ViewController.swift */; };
+		6944AC4229BF218400290388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6944AC4029BF218400290388 /* Main.storyboard */; };
+		6944AC4429BF218400290388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6944AC4329BF218400290388 /* Assets.xcassets */; };
+		6944AC4729BF218400290388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6944AC4529BF218400290388 /* LaunchScreen.storyboard */; };
+		6944AC5229BF218400290388 /* Kadai3_UIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6944AC5129BF218400290388 /* Kadai3_UIKitTests.swift */; };
+		6944AC5C29BF218400290388 /* Kadai3_UIKitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6944AC5B29BF218400290388 /* Kadai3_UIKitUITests.swift */; };
+		6944AC5E29BF218400290388 /* Kadai3_UIKitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6944AC5D29BF218400290388 /* Kadai3_UIKitUITestsLaunchTests.swift */; };
+		6944AC6C29BF21EC00290388 /* IgnoreFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6944AC6A29BF21E900290388 /* IgnoreFile.swift */; };
+		6944AC6E29BF228300290388 /* addExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6944AC6D29BF228300290388 /* addExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6944AC4E29BF218400290388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6944AC2F29BF218400290388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6944AC3629BF218400290388;
+			remoteInfo = "Kadai3-UIKit";
+		};
+		6944AC5829BF218400290388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6944AC2F29BF218400290388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6944AC3629BF218400290388;
+			remoteInfo = "Kadai3-UIKit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6944AC3729BF218400290388 /* Kadai3-UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kadai3-UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6944AC3A29BF218400290388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6944AC3C29BF218400290388 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6944AC3E29BF218400290388 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6944AC4129BF218400290388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6944AC4329BF218400290388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6944AC4629BF218400290388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6944AC4829BF218400290388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6944AC4D29BF218400290388 /* Kadai3-UIKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kadai3-UIKitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6944AC5129BF218400290388 /* Kadai3_UIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadai3_UIKitTests.swift; sourceTree = "<group>"; };
+		6944AC5729BF218400290388 /* Kadai3-UIKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kadai3-UIKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6944AC5B29BF218400290388 /* Kadai3_UIKitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadai3_UIKitUITests.swift; sourceTree = "<group>"; };
+		6944AC5D29BF218400290388 /* Kadai3_UIKitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kadai3_UIKitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6944AC6A29BF21E900290388 /* IgnoreFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgnoreFile.swift; sourceTree = "<group>"; };
+		6944AC6D29BF228300290388 /* addExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6944AC3429BF218400290388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6944AC4A29BF218400290388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6944AC5429BF218400290388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6944AC2E29BF218400290388 = {
+			isa = PBXGroup;
+			children = (
+				6944AC3929BF218400290388 /* Kadai3-UIKit */,
+				6944AC5029BF218400290388 /* Kadai3-UIKitTests */,
+				6944AC5A29BF218400290388 /* Kadai3-UIKitUITests */,
+				6944AC3829BF218400290388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6944AC3829BF218400290388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6944AC3729BF218400290388 /* Kadai3-UIKit.app */,
+				6944AC4D29BF218400290388 /* Kadai3-UIKitTests.xctest */,
+				6944AC5729BF218400290388 /* Kadai3-UIKitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6944AC3929BF218400290388 /* Kadai3-UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6944AC3A29BF218400290388 /* AppDelegate.swift */,
+				6944AC3C29BF218400290388 /* SceneDelegate.swift */,
+				6944AC3E29BF218400290388 /* ViewController.swift */,
+				6944AC4029BF218400290388 /* Main.storyboard */,
+				6944AC4329BF218400290388 /* Assets.xcassets */,
+				6944AC4529BF218400290388 /* LaunchScreen.storyboard */,
+				6944AC4829BF218400290388 /* Info.plist */,
+				6944AC6A29BF21E900290388 /* IgnoreFile.swift */,
+				6944AC6D29BF228300290388 /* addExtension.swift */,
+			);
+			path = "Kadai3-UIKit";
+			sourceTree = "<group>";
+		};
+		6944AC5029BF218400290388 /* Kadai3-UIKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				6944AC5129BF218400290388 /* Kadai3_UIKitTests.swift */,
+			);
+			path = "Kadai3-UIKitTests";
+			sourceTree = "<group>";
+		};
+		6944AC5A29BF218400290388 /* Kadai3-UIKitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6944AC5B29BF218400290388 /* Kadai3_UIKitUITests.swift */,
+				6944AC5D29BF218400290388 /* Kadai3_UIKitUITestsLaunchTests.swift */,
+			);
+			path = "Kadai3-UIKitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6944AC3629BF218400290388 /* Kadai3-UIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6944AC6129BF218400290388 /* Build configuration list for PBXNativeTarget "Kadai3-UIKit" */;
+			buildPhases = (
+				6944AC3329BF218400290388 /* Sources */,
+				6944AC3429BF218400290388 /* Frameworks */,
+				6944AC3529BF218400290388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kadai3-UIKit";
+			productName = "Kadai3-UIKit";
+			productReference = 6944AC3729BF218400290388 /* Kadai3-UIKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6944AC4C29BF218400290388 /* Kadai3-UIKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6944AC6429BF218400290388 /* Build configuration list for PBXNativeTarget "Kadai3-UIKitTests" */;
+			buildPhases = (
+				6944AC4929BF218400290388 /* Sources */,
+				6944AC4A29BF218400290388 /* Frameworks */,
+				6944AC4B29BF218400290388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6944AC4F29BF218400290388 /* PBXTargetDependency */,
+			);
+			name = "Kadai3-UIKitTests";
+			productName = "Kadai3-UIKitTests";
+			productReference = 6944AC4D29BF218400290388 /* Kadai3-UIKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6944AC5629BF218400290388 /* Kadai3-UIKitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6944AC6729BF218400290388 /* Build configuration list for PBXNativeTarget "Kadai3-UIKitUITests" */;
+			buildPhases = (
+				6944AC5329BF218400290388 /* Sources */,
+				6944AC5429BF218400290388 /* Frameworks */,
+				6944AC5529BF218400290388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6944AC5929BF218400290388 /* PBXTargetDependency */,
+			);
+			name = "Kadai3-UIKitUITests";
+			productName = "Kadai3-UIKitUITests";
+			productReference = 6944AC5729BF218400290388 /* Kadai3-UIKitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6944AC2F29BF218400290388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6944AC3629BF218400290388 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					6944AC4C29BF218400290388 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6944AC3629BF218400290388;
+					};
+					6944AC5629BF218400290388 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6944AC3629BF218400290388;
+					};
+				};
+			};
+			buildConfigurationList = 6944AC3229BF218400290388 /* Build configuration list for PBXProject "Kadai3-UIKit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6944AC2E29BF218400290388;
+			productRefGroup = 6944AC3829BF218400290388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6944AC3629BF218400290388 /* Kadai3-UIKit */,
+				6944AC4C29BF218400290388 /* Kadai3-UIKitTests */,
+				6944AC5629BF218400290388 /* Kadai3-UIKitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6944AC3529BF218400290388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6944AC4729BF218400290388 /* LaunchScreen.storyboard in Resources */,
+				6944AC4429BF218400290388 /* Assets.xcassets in Resources */,
+				6944AC4229BF218400290388 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6944AC4B29BF218400290388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6944AC5529BF218400290388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6944AC3329BF218400290388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6944AC3F29BF218400290388 /* ViewController.swift in Sources */,
+				6944AC6E29BF228300290388 /* addExtension.swift in Sources */,
+				6944AC3B29BF218400290388 /* AppDelegate.swift in Sources */,
+				6944AC3D29BF218400290388 /* SceneDelegate.swift in Sources */,
+				6944AC6C29BF21EC00290388 /* IgnoreFile.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6944AC4929BF218400290388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6944AC5229BF218400290388 /* Kadai3_UIKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6944AC5329BF218400290388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6944AC5E29BF218400290388 /* Kadai3_UIKitUITestsLaunchTests.swift in Sources */,
+				6944AC5C29BF218400290388 /* Kadai3_UIKitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6944AC4F29BF218400290388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6944AC3629BF218400290388 /* Kadai3-UIKit */;
+			targetProxy = 6944AC4E29BF218400290388 /* PBXContainerItemProxy */;
+		};
+		6944AC5929BF218400290388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6944AC3629BF218400290388 /* Kadai3-UIKit */;
+			targetProxy = 6944AC5829BF218400290388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6944AC4029BF218400290388 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6944AC4129BF218400290388 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6944AC4529BF218400290388 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6944AC4629BF218400290388 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6944AC5F29BF218400290388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6944AC6029BF218400290388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6944AC6229BF218400290388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kadai3-UIKit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sako.Kadai3-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6944AC6329BF218400290388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Kadai3-UIKit/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sako.Kadai3-UIKit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6944AC6529BF218400290388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sako.Kadai3-UIKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kadai3-UIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kadai3-UIKit";
+			};
+			name = Debug;
+		};
+		6944AC6629BF218400290388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sako.Kadai3-UIKitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kadai3-UIKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Kadai3-UIKit";
+			};
+			name = Release;
+		};
+		6944AC6829BF218400290388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sako.Kadai3-UIKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kadai3-UIKit";
+			};
+			name = Debug;
+		};
+		6944AC6929BF218400290388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sako.Kadai3-UIKitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Kadai3-UIKit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6944AC3229BF218400290388 /* Build configuration list for PBXProject "Kadai3-UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6944AC5F29BF218400290388 /* Debug */,
+				6944AC6029BF218400290388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6944AC6129BF218400290388 /* Build configuration list for PBXNativeTarget "Kadai3-UIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6944AC6229BF218400290388 /* Debug */,
+				6944AC6329BF218400290388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6944AC6429BF218400290388 /* Build configuration list for PBXNativeTarget "Kadai3-UIKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6944AC6529BF218400290388 /* Debug */,
+				6944AC6629BF218400290388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6944AC6729BF218400290388 /* Build configuration list for PBXNativeTarget "Kadai3-UIKitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6944AC6829BF218400290388 /* Debug */,
+				6944AC6929BF218400290388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6944AC2F29BF218400290388 /* Project object */;
+}
